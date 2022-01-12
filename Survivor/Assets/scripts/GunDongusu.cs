@@ -16,6 +16,5 @@ public class GunDongusu : MonoBehaviour
         transform.RotateAround(new Vector3(250, 0, 250), Vector3.right, 5f * Time.deltaTime);
         //bir nokta etrafýnda döndürmek için kullanýlýr bu fonksiyon
         //noktayý olusturduk ilk parametrede sonra yönu sectik , zamaný seçtik 
-        
     }
 }
