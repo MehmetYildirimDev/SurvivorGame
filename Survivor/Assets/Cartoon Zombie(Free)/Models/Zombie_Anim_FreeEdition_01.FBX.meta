@@ -1,110 +1,302 @@
 fileFormatVersion: 2
 guid: 9d7727f5cb362ce41ab3123148f74b2c
-timeCreated: 1507211231
-licenseType: Store
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Bone001_Arm
-    100002: Bone002_Hand
-    100004: Bone003_Paw
-    100006: Bone009_Finger
-    100008: Bone013_Finger
-    100010: Bone014_Finger
-    100012: Bone015_Finger
-    100014: Bone018_Leg
-    100016: Bone019_Shin
-    100018: Bone020_Foot
-    100020: Bone021_MASS
-    100022: Bone022_Stum
-    100024: Bone023_Chest
-    100026: Bone024_Neck
-    100028: Bone025_Head
-    100030: Bone026_Arm
-    100032: Bone026_Jaw
-    100034: Bone027_Hand
-    100036: Bone028_Paw
-    100038: Bone029_Finger
-    100040: Bone030_Finger
-    100042: Bone031_Finger
-    100044: Bone032_Finger
-    100046: Bone033_Leg
-    100048: Bone034_Shin
-    100050: Bone035_Foot
-    100052: Dummy001
-    100054: Dummy002
-    100056: Dummy003
-    100058: Dummy004
-    100060: Dummy005
-    100062: Dummy006
-    100064: Dummy007
-    100066: Dummy008
-    100068: Dummy009
-    100070: Dummy010_HandL
-    100072: Dummy010_HandR
-    100074: Dummy010_Heat
-    100076: IK Chain001
-    100078: IK Chain002
-    100080: IK Chain003
-    100082: IK Chain004
-    100084: Zombee_01
-    100086: //RootNode
-    400000: Bone001_Arm
-    400002: Bone002_Hand
-    400004: Bone003_Paw
-    400006: Bone009_Finger
-    400008: Bone013_Finger
-    400010: Bone014_Finger
-    400012: Bone015_Finger
-    400014: Bone018_Leg
-    400016: Bone019_Shin
-    400018: Bone020_Foot
-    400020: Bone021_MASS
-    400022: Bone022_Stum
-    400024: Bone023_Chest
-    400026: Bone024_Neck
-    400028: Bone025_Head
-    400030: Bone026_Arm
-    400032: Bone026_Jaw
-    400034: Bone027_Hand
-    400036: Bone028_Paw
-    400038: Bone029_Finger
-    400040: Bone030_Finger
-    400042: Bone031_Finger
-    400044: Bone032_Finger
-    400046: Bone033_Leg
-    400048: Bone034_Shin
-    400050: Bone035_Foot
-    400052: Dummy001
-    400054: Dummy002
-    400056: Dummy003
-    400058: Dummy004
-    400060: Dummy005
-    400062: Dummy006
-    400064: Dummy007
-    400066: Dummy008
-    400068: Dummy009
-    400070: Dummy010_HandL
-    400072: Dummy010_HandR
-    400074: Dummy010_Heat
-    400076: IK Chain001
-    400078: IK Chain002
-    400080: IK Chain003
-    400082: IK Chain004
-    400084: Zombee_01
-    400086: //RootNode
-    4300000: Zombee_01
-    7400000: Zombie_Idle_01
-    7400002: Zombie_Walk_01
-    7400004: Zombie_Attack_01
-    7400006: Zombie_Death_01
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: Zombee_01
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bone001_Arm
+  - first:
+      1: 100002
+    second: Bone002_Hand
+  - first:
+      1: 100004
+    second: Bone003_Paw
+  - first:
+      1: 100006
+    second: Bone009_Finger
+  - first:
+      1: 100008
+    second: Bone013_Finger
+  - first:
+      1: 100010
+    second: Bone014_Finger
+  - first:
+      1: 100012
+    second: Bone015_Finger
+  - first:
+      1: 100014
+    second: Bone018_Leg
+  - first:
+      1: 100016
+    second: Bone019_Shin
+  - first:
+      1: 100018
+    second: Bone020_Foot
+  - first:
+      1: 100020
+    second: Bone021_MASS
+  - first:
+      1: 100022
+    second: Bone022_Stum
+  - first:
+      1: 100024
+    second: Bone023_Chest
+  - first:
+      1: 100026
+    second: Bone024_Neck
+  - first:
+      1: 100028
+    second: Bone025_Head
+  - first:
+      1: 100030
+    second: Bone026_Arm
+  - first:
+      1: 100032
+    second: Bone026_Jaw
+  - first:
+      1: 100034
+    second: Bone027_Hand
+  - first:
+      1: 100036
+    second: Bone028_Paw
+  - first:
+      1: 100038
+    second: Bone029_Finger
+  - first:
+      1: 100040
+    second: Bone030_Finger
+  - first:
+      1: 100042
+    second: Bone031_Finger
+  - first:
+      1: 100044
+    second: Bone032_Finger
+  - first:
+      1: 100046
+    second: Bone033_Leg
+  - first:
+      1: 100048
+    second: Bone034_Shin
+  - first:
+      1: 100050
+    second: Bone035_Foot
+  - first:
+      1: 100052
+    second: Dummy001
+  - first:
+      1: 100054
+    second: Dummy002
+  - first:
+      1: 100056
+    second: Dummy003
+  - first:
+      1: 100058
+    second: Dummy004
+  - first:
+      1: 100060
+    second: Dummy005
+  - first:
+      1: 100062
+    second: Dummy006
+  - first:
+      1: 100064
+    second: Dummy007
+  - first:
+      1: 100066
+    second: Dummy008
+  - first:
+      1: 100068
+    second: Dummy009
+  - first:
+      1: 100070
+    second: Dummy010_HandL
+  - first:
+      1: 100072
+    second: Dummy010_HandR
+  - first:
+      1: 100074
+    second: Dummy010_Heat
+  - first:
+      1: 100076
+    second: IK Chain001
+  - first:
+      1: 100078
+    second: IK Chain002
+  - first:
+      1: 100080
+    second: IK Chain003
+  - first:
+      1: 100082
+    second: IK Chain004
+  - first:
+      1: 100084
+    second: Zombee_01
+  - first:
+      1: 100086
+    second: //RootNode
+  - first:
+      4: 400000
+    second: Bone001_Arm
+  - first:
+      4: 400002
+    second: Bone002_Hand
+  - first:
+      4: 400004
+    second: Bone003_Paw
+  - first:
+      4: 400006
+    second: Bone009_Finger
+  - first:
+      4: 400008
+    second: Bone013_Finger
+  - first:
+      4: 400010
+    second: Bone014_Finger
+  - first:
+      4: 400012
+    second: Bone015_Finger
+  - first:
+      4: 400014
+    second: Bone018_Leg
+  - first:
+      4: 400016
+    second: Bone019_Shin
+  - first:
+      4: 400018
+    second: Bone020_Foot
+  - first:
+      4: 400020
+    second: Bone021_MASS
+  - first:
+      4: 400022
+    second: Bone022_Stum
+  - first:
+      4: 400024
+    second: Bone023_Chest
+  - first:
+      4: 400026
+    second: Bone024_Neck
+  - first:
+      4: 400028
+    second: Bone025_Head
+  - first:
+      4: 400030
+    second: Bone026_Arm
+  - first:
+      4: 400032
+    second: Bone026_Jaw
+  - first:
+      4: 400034
+    second: Bone027_Hand
+  - first:
+      4: 400036
+    second: Bone028_Paw
+  - first:
+      4: 400038
+    second: Bone029_Finger
+  - first:
+      4: 400040
+    second: Bone030_Finger
+  - first:
+      4: 400042
+    second: Bone031_Finger
+  - first:
+      4: 400044
+    second: Bone032_Finger
+  - first:
+      4: 400046
+    second: Bone033_Leg
+  - first:
+      4: 400048
+    second: Bone034_Shin
+  - first:
+      4: 400050
+    second: Bone035_Foot
+  - first:
+      4: 400052
+    second: Dummy001
+  - first:
+      4: 400054
+    second: Dummy002
+  - first:
+      4: 400056
+    second: Dummy003
+  - first:
+      4: 400058
+    second: Dummy004
+  - first:
+      4: 400060
+    second: Dummy005
+  - first:
+      4: 400062
+    second: Dummy006
+  - first:
+      4: 400064
+    second: Dummy007
+  - first:
+      4: 400066
+    second: Dummy008
+  - first:
+      4: 400068
+    second: Dummy009
+  - first:
+      4: 400070
+    second: Dummy010_HandL
+  - first:
+      4: 400072
+    second: Dummy010_HandR
+  - first:
+      4: 400074
+    second: Dummy010_Heat
+  - first:
+      4: 400076
+    second: IK Chain001
+  - first:
+      4: 400078
+    second: IK Chain002
+  - first:
+      4: 400080
+    second: IK Chain003
+  - first:
+      4: 400082
+    second: IK Chain004
+  - first:
+      4: 400084
+    second: Zombee_01
+  - first:
+      4: 400086
+    second: //RootNode
+  - first:
+      43: 4300000
+    second: Zombee_01
+  - first:
+      74: 7400000
+    second: Zombie_Idle_01
+  - first:
+      74: 7400002
+    second: Zombie_Walk_01
+  - first:
+      74: 7400004
+    second: Zombie_Attack_01
+  - first:
+      74: 7400006
+    second: Zombie_Death_01
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Zombee_01
+  externalObjects: {}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -117,16 +309,20 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
       name: Zombie_Idle_01
       takeName: Take 001
+      internalID: 0
       firstFrame: 0
       lastFrame: 80
       wrapMode: 2
@@ -243,6 +439,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Zombie_Walk_01
       takeName: Take 001
+      internalID: 0
       firstFrame: 100
       lastFrame: 145
       wrapMode: 2
@@ -359,6 +556,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Zombie_Attack_01
       takeName: Take 001
+      internalID: 0
       firstFrame: 160
       lastFrame: 210
       wrapMode: 2
@@ -475,9 +673,10 @@ ModelImporter:
     - serializedVersion: 16
       name: Zombie_Death_01
       takeName: Take 001
+      internalID: 0
       firstFrame: 220
       lastFrame: 270
-      wrapMode: 2
+      wrapMode: 1
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -594,26 +793,45 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -623,14 +841,17 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 1
   humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
   additionalBone: 0
   userData: 
   assetBundleName: 

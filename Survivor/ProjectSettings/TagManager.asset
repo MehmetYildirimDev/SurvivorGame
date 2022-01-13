@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - zombi
+  - mermi
+  - Heart
   layers:
   - Default
   - TransparentFX

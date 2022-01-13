@@ -10,9 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 562690124640651341}
   - component: {fileID: -3262060906507397345}
+  - component: {fileID: -3701437160530451883}
   m_Layer: 0
   m_Name: mermi
-  m_TagString: Untagged
+  m_TagString: mermi
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49,6 +50,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!136 &-3701437160530451883
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 902060245170508535}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4421135392259163236
 GameObject:
   m_ObjectHideFlags: 0
