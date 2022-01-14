@@ -249,15 +249,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 194613958314231406, guid: c5e91d3309b72da4e970eeeae1a88ea0, type: 3}
       propertyPath: m_BoundingSphereOverride.w
-      value: 22.450653
+      value: -3.11e-43
+      objectReference: {fileID: 0}
+    - target: {fileID: 194613958314231406, guid: c5e91d3309b72da4e970eeeae1a88ea0, type: 3}
+      propertyPath: m_BoundingSphereOverride.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 194613958314231406, guid: c5e91d3309b72da4e970eeeae1a88ea0, type: 3}
       propertyPath: m_BoundingSphereOverride.y
-      value: 8e-45
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 194613958314231406, guid: c5e91d3309b72da4e970eeeae1a88ea0, type: 3}
       propertyPath: m_BoundingSphereOverride.z
-      value: 1e-44
+      value: 9.1837e-41
       objectReference: {fileID: 0}
     - target: {fileID: 2658739232334334470, guid: c5e91d3309b72da4e970eeeae1a88ea0, type: 3}
       propertyPath: m_RootOrder
@@ -1870,18 +1874,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1757694489}
     m_Modifications:
-    - target: {fileID: 8856299871257370195, guid: 3add8790f47064a40a0980374f858786, type: 3}
-      propertyPath: MaxDistance
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 8856299871257370195, guid: 3add8790f47064a40a0980374f858786, type: 3}
-      propertyPath: rolloffMode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8856299871257370195, guid: 3add8790f47064a40a0980374f858786, type: 3}
-      propertyPath: panLevelCustomCurve.m_Curve.Array.data[0].value
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 9113524452237362208, guid: 3add8790f47064a40a0980374f858786, type: 3}
       propertyPath: m_Name
       value: Alev
