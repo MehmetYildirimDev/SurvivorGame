@@ -13,7 +13,8 @@ public class ZombiHareket : MonoBehaviour
     float Mesafe;
     int puanArtisi = 1;
     private AudioSource aSource;
-    // Start is called before the first frame update
+
+
     void Start()
     {
         aSource = GetComponent<AudioSource>();
